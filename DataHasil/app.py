@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Muat data yang sudah dibersihkan
-df_day = pd.read_csv('D:/projekdicoding/DataHasil/cleaned_day.csv')
-df_hour = pd.read_csv('D:/projekdicoding/DataHasil/cleaned_hour.csv')
+df_day = pd.read_csv('DataHasil/cleaned_day.csv')
+df_hour = pd.read_csv('DataHasil/cleaned_hour.csv')
 
 # Judul aplikasi
 st.title('Analisis Penggunaan Sepeda')
